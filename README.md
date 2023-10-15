@@ -14,6 +14,7 @@ and
 
 * Windows 10/11
 * macOS
+* FreeBSD (you have to manually mount the Pi Pico boot volume first)
 
 ## Requirements
 
@@ -21,6 +22,8 @@ and
 rustup target install thumbv6m-none-eabi
 cargo install --locked elf2uf2-rs
 ```
+
+(also works without --locked)
 
 ## Running
 
